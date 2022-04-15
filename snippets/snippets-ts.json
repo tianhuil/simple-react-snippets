@@ -132,6 +132,18 @@
     "description": "Function Component"
   },
 
+  "Stateless Function Component": {
+    "prefix": "sfc",
+    "body": [
+      "const $1 = ($2) => {",
+      "\treturn ( $0 );",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Stateless Function Component"
+  },
+
   "Function Syntax Component": {
     "prefix": "ffc",
     "body": [
